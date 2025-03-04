@@ -61,11 +61,11 @@ header h1 {
 .completed {
     background-color: #ffebf2;
     text-decoration: line-through;
-    color: #ff3385;
+    color: #ee317d;
 }
 
 button {
-    background-color: #ff3385;
+    background-color: #fd277d;
     color: white;
     border: none;
     border-radius: 5px;

@@ -30,7 +30,7 @@ function displayTasks() {
         let li = document.createElement('li');
         li.classList.add('list-group-item', 'd-flex', 'justify-content-between', 'align-items-center');
         li.innerHTML = `${task} 
-            <button class="btn btn-dark btn-sm" onclick="toggleCompleted(${index})"> Done </button>
+            
             <button class="btn btn-danger btn-sm" onclick="removeTask(${index})"> Remove </button>`;
         taskList.appendChild(li);
     });
